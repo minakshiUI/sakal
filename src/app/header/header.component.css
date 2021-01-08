@@ -1,11 +1,29 @@
+
+@font-face{
+    font-family: 'Raleway';
+    src: url('../../assets/Raleway-VariableFont_wght.ttf');
+}
+
 .navbar-custom { 
     background-color:#344F8C; 
     color:white;
 } 
 .navbar-nav.mx-auto li a{
     color: white;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .navbar-brand {
     color: white;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.navbar-text{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 200;
 }
