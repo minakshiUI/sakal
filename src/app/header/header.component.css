@@ -5,7 +5,8 @@
 }
 
 .navbar-custom { 
-    background-color:#344F8C; 
+    /* background-color:#264993;  */
+    background-color:#0f4c85;
     color:white;
 } 
 .navbar-nav.mx-auto li a{
@@ -25,5 +26,5 @@
 .navbar-text{
     font-family: Raleway;
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 300;
 }
