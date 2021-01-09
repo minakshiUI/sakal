@@ -17,7 +17,7 @@
 .adv p{
     font-family: Raleway;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 
@@ -39,7 +39,7 @@
     padding-left: 6px;
     padding-right: 2px;
     width: 40%;
-    height: 100px;
+    height: 105px;
 }
 .card-title1{
     padding-left: 50px;
@@ -83,7 +83,8 @@
 .rowCol p{
     font-family: Raleway;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: -10px;
 }
 .rowcol-a{
     font-family: Raleway;
@@ -93,7 +94,7 @@
 
 .like{
     font-family: Raleway;
-    font-weight: 350;
+    font-weight: 800;
     font-size: 11px;
 }
 
