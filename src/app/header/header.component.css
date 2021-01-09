@@ -12,19 +12,19 @@
 .navbar-nav.mx-auto li a{
     color: white;
     font-family: Raleway;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
 }
 
 .navbar-brand {
     color: white;
     font-family: Raleway;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 800;
 }
 
 .navbar-text{
     font-family: Raleway;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
 }
