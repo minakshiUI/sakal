@@ -5,7 +5,7 @@
   <div class="row align-items-stretch my-row">
 
     <div class="col-lg-3 col-md-3 col-sm-12 align-self-start shadow-sm">
-      <div class="card border-light  text-center" >
+      <div class="card border-0  text-center" >
         <div class="card-header text-muted" style="background-color: #e2edf3  ;"></div>
         <div class="center">
           <a class="fa-layers" href="#" style="z-index: 20; "><fa-icon  [icon]="faCamera" pull="left" ></fa-icon></a>
@@ -28,17 +28,17 @@
     </div>
 
     <div class="col-lg-3 col-md-3 col-sm-12 align-self-stretch shadow-sm adv" style="height: 622px;font-size: 12px;" >
-      <div class="card text-left" >
-        <div class="card-header text-muted" style="background-color:white;">Advertisement</div>
-        <div class="card-header text-muted" style="background-color:white">
+      <div class="card border-0 text-left" >
+        <div class="card-header border-light text-muted" style="background-color:white;">Advertisement</div>
+        <div class="card-header border-light text-muted" style="background-color:white">
           <img class="image2 rounded" src="https://i.ytimg.com/vi/ueOo7tSaxCk/hqdefault.jpg" alt="">
           <p class="card-text" style="padding-right: 10px;">It is a portion of food often smaller than a regular meal</p>
         </div>
-        <div class="card-header text-muted" style="background-color:white">
+        <div class="card-header border-light text-muted" style="background-color:white">
           <img class="image2 rounded" src="https://i.ytimg.com/vi/ueOo7tSaxCk/hqdefault.jpg" alt="">
           <p class="card-text" style="padding-right: 10px;">It is a portion of food often smaller than a regular meal</p>
         </div>
-        <div class="card-header text-muted" style="background-color:white">
+        <div class="card-header border-light text-muted" style="background-color:white">
           <img class="image2 rounded" src="https://i.ytimg.com/vi/ueOo7tSaxCk/hqdefault.jpg" alt="">
           <p class="card-text" style="padding-right: 10px;">It is a portion of food often smaller than a regular meal</p>
         </div>
@@ -50,7 +50,7 @@
   <div class="row align-items-stretch mb-5">
 
     <div class="col-lg-3 col-md-3 col-sm-12 text-center align-self-stretch shadow-sm" style="height: 432px;">
-      <div class="card Destination">
+      <div class="card border-0 Destination">
         <h5 class="mr-auto px-3 py-2">Destinations</h5>
         <div style="display: inline-block;" class="fontAws mr-auto">
           <fa-icon [icon]="faGopuram"></fa-icon>
@@ -92,8 +92,8 @@
       </div>
     </div>
 
-      <div class="col-lg-6 col-md-6 col-sm-12 align-self-start shadow-sm rounded " style="height: 475px;margin-top: -38px;">
-        <div class="card rowCol">
+      <div class="col-lg-6 col-md-6 col-sm-12 align-self-start shadow-sm rounded " style="height: 445px;margin-top: -38px;">
+        <div class="card border-0 rowCol">
           <div class="card-body">
             <fa-icon [icon]="faEllipsisV" pull="right"></fa-icon>
             <img class="card-img-overlay rounded-circle" 
@@ -108,7 +108,7 @@
           <img class="card-img-bottom mr-1 ml-1" src="https://www.groundzeroweb.com/wp-content/uploads/2016/11/Tourist-Places-in-India.jpg" alt="Card image cap"
                   style="width:98%;">
           <div class="card-header" style="background-color:white"></div>
-          <div class="card-header like" style="background-color:white">
+          <div class="like">
             &nbsp;<fa-icon [icon]="faHeart"></fa-icon><a href="#">&nbsp; Like</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<fa-icon [icon]="faCommentDots"></fa-icon><a href="#">&nbsp; Comment</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<fa-icon [icon]="faShare" pull="right-lg-6"></fa-icon> <a href="#">&nbsp;Share</a>
           </div>
         </div>
@@ -119,8 +119,8 @@
   
   <div class="row justify-content-center align-content-start" >
 
-      <div class="col-lg-6 col-md-6 col-sm-12 shadow-sm rounded" style="height: 475px; margin-top: -22px;">
-        <div class="card rowCol">
+      <div class="col-lg-6 col-md-6 col-sm-12 shadow-sm rounded" style="height: 445px; margin-top: -22px;">
+        <div class="card border-0 rowCol">
           <div class="card-body">
             <fa-icon [icon]="faEllipsisV" pull="right"></fa-icon>
             <img class="card-img-overlay rounded-circle" 
@@ -135,9 +135,12 @@
           <img class="card-img-bottom mr-1 ml-1" src="https://www.groundzeroweb.com/wp-content/uploads/2016/11/Tourist-Places-in-India.jpg" alt="Card image cap"
                 style="width:98%;">
           <div class="card-header" style="background-color:white"></div>
-          <div class="card-header like" style="background-color:white">
-            &nbsp;<fa-icon [icon]="faHeart"></fa-icon><a href="#">&nbsp; Like</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<fa-icon [icon]="faCommentDots"></fa-icon><a href="#">&nbsp; Comment</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<fa-icon [icon]="faShare" pull="right-lg-6"></fa-icon> <a href="#">&nbsp;Share</a>
+          <div class="like">
+          &nbsp;<fa-icon [icon]="faHeart"></fa-icon><a href="#">&nbsp; Like</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<fa-icon [icon]="faCommentDots"></fa-icon><a href="#">&nbsp; Comment</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<fa-icon [icon]="faShare" pull="right-lg-6"></fa-icon> <a href="#">&nbsp;Share</a>
           </div>
+          <!-- <div class="card-header like" style="background-color:white">
+            &nbsp;<fa-icon [icon]="faHeart"></fa-icon><a href="#">&nbsp; Like</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<fa-icon [icon]="faCommentDots"></fa-icon><a href="#">&nbsp; Comment</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<fa-icon [icon]="faShare" pull="right-lg-6"></fa-icon> <a href="#">&nbsp;Share</a>
+          </div> -->
         </div>
 
       </div>
