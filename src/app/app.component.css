@@ -94,8 +94,8 @@
 
 .like{
     font-family: Raleway;
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 800;
+    font-size: 14px;
 }
 
 .dest{
@@ -120,12 +120,13 @@
     height: 50px;
 
 }
-/* .center{
+
+.center{ 
     display:inline-block;
-    font-size: 15px;
-    line-height: 100px;
-    width: 140px;
+    font-size: 14px;
+    line-height: 110px;
+    width: 120px;
     height: 0px;
     text-align: center;
     vertical-align: center;
-} */
+} 

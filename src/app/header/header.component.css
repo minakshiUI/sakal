@@ -4,27 +4,29 @@
     src: url('../../assets/Raleway-VariableFont_wght.ttf');
 }
 
-.navbar-custom { 
+.navbar-dark { 
     /* background-color:#264993;  */
     background-color:#0f4c85;
     color:white;
 } 
-.navbar-nav.mx-auto li a{
+/* .navbar-nav.mx-auto li a{
     color: white;
     font-family: Raleway;
     font-size: 15px;
     font-weight: 300;
-}
+} */
 
 .navbar-brand {
     color: white;
     font-family: Raleway;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 .navbar-text{
+    color: white;
+    padding-left: 250px;
     font-family: Raleway;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 300;
 }
