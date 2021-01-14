@@ -1,4 +1,4 @@
-
+<!-- 
 <app-header></app-header><br><br>
 <div class="container">
 
@@ -139,9 +139,6 @@
           <div class="like">
           &nbsp;<fa-icon [icon]="faHeart"></fa-icon><a href="#">&nbsp; Like</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<fa-icon [icon]="faCommentDots"></fa-icon><a href="#">&nbsp; Comment</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<fa-icon [icon]="faShare" pull="right-lg-6"></fa-icon> <a href="#">&nbsp;Share</a>
           </div>
-          <!-- <div class="card-header like" style="background-color:white">
-            &nbsp;<fa-icon [icon]="faHeart"></fa-icon><a href="#">&nbsp; Like</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<fa-icon [icon]="faCommentDots"></fa-icon><a href="#">&nbsp; Comment</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<fa-icon [icon]="faShare" pull="right-lg-6"></fa-icon> <a href="#">&nbsp;Share</a>
-          </div> -->
         </div>
 
       </div>
@@ -149,3 +146,231 @@
   </div>
 </div>
 <br><br>
+ -->
+
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sakal</title>
+ </head>
+ <body>
+   <div id="wrapper">
+      <div class="navbar-custom sakal-topbar">
+        <ul class="list-unstyle topnav-menu float-right mb-0">
+          <li class="language mr-3">
+            <a class="mr-1" href="#">English</a>
+            <span>|</span>
+            <a class="ml-1" href="#">Marathi</a>
+          </li>
+        </ul>
+        <div class="logo-box">
+          <a href="#">Sakal</a>
+        </div>
+      </div>
+   </div>
+ </body>
+ </html> -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body>
+  <app-header></app-header>
+
+  <div class="whole-page"> 
+     <div class="container">
+       <div class="row">
+         <div class="col-sm-3">
+           <div id="sidebar-menu" class="active">
+             <div class="top-sidebar">
+               <div class="grey-bg"></div>
+               <div class="media">
+                 <img class="img-fluid rounded-circle mr-1" src="../assets/profileImg.jpg" alt="">
+                 <div class="media-body">
+                   <h5 class="mt-0">Vikram rathod</h5>
+                   <p>
+                     <a href="#">My Profile</a>|
+                     <a href="#">Logout</a>
+                   </p>
+                 </div>
+               </div>
+             </div>
+             <div class="destination-list">
+               <h4>Destinations</h4>
+               <ul>
+                 <li><a href="#"><img class="img-fluid mr-3" src="../assets/images/fort.png" alt="">Forts</a></li>
+                 <li><a href="#"><img class="img-fluid mr-3" src="../assets/images/health.png" alt="">Health</a></li>
+                 <li><a href=""><img class="img-fluid mr-3" src="../assets/images/hill-station.png" alt="">Hill Station</a></li>
+                 <li><a href=""><img class="img-fluid mr-3" src="../assets/images/beach.png" alt="">Beach</a></li>
+                 <li><a href=""><img class="img-fluid mr-3" src="../assets/images/luxury.png" alt="">Luxury</a></li>
+                 <li><a href=""><img class="img-fluid mr-3" src="../assets/images/religious.png" alt="">Religious</a></li>
+                 <li><a href=""><img class="img-fluid mr-3" src="../assets/images/heritage.png" alt="">Heritage</a></li>
+                 <li><a href=""><img class="img-fluid mr-3" src="../assets/images/yoga.png" alt="">Spiritual</a></li>
+                 <li><a href=""><img class="img-fluid mr-3" src="../assets/images/wild-life.png" alt="">Wild Life</a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+ 
+         <div class="col-sm-6">
+           <div class="sakal-service">
+             <ul class="nav nav-pills  rounded" id="myTab" role="tablist">
+               <li class="nav-item">
+                 <a 
+                 class="nav-link active" id="all-pill" 
+                 data-toggle="pill" href="#all" 
+                 role="tab" aria-controls="all" aria-selected="true">All</a>
+               </li>     
+               <li class="nav-item">
+                 <a class="nav-link" id="blogs-pill" 
+                     data-toggle="pill" href="#blogs" 
+                     role="tab" aria-controls="blogs" aria-selected="false">Blogs</a>
+               </li>   
+               <li class="nav-item">
+                 <a class="nav-link" id="trip-pill" 
+                    data-toggle="pill" href="#trip" 
+                    role="tab" aria-controls="trip" aria-selected="false">Trip advice</a>
+               </li>         
+               <li class="nav-item">
+                 <a class="nav-link" id="food-pill" 
+                    data-toggle="pill" href="#food" 
+                    role="tab" aria-controls="food" aria-selected="false">Food</a>
+               </li>  
+               <li class="nav-item">
+                 <a class="nav-link" id="videos-pill" 
+                    data-toggle="pill" href="#videos" 
+                    role="tab" aria-controls="videos" aria-selected="false">Videos</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" id="photos-pill" 
+                    data-toggle="pill" href="#photos" 
+                    role="tab" aria-controls="photos" aria-selected="false">Photos</a>
+               </li>
+             </ul>
+             <div class="tab-content " id="myTabContent">
+               <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                   <div class="border border-light p-3 mb-3 bg-white2 rounded">
+                     <div class="media">
+                         <img class="mr-2 avatar-sm rounded-circle" src="../assets/images/profile1Img.png" alt="Generic placeholder image">
+                         <div class="media-body">
+                             <h5 class="m-0">Lorem Ipsum</h5>
+                             <p class="text-muted"><small>about 2 minuts ago</small></p>
+                         </div>
+                     </div>
+                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium unde omnis iste doloremque laudantium, totam rem aptteriam <a href="">see more</a></p>
+ 
+                     <img src="../assets/images/image2.png" alt="post-img" class="mb-2 img-fluid">
+ 
+                     <div class="comment-likes social-list">
+                         <div class="float-left">
+                             <ul>
+                                 <li><a href="">1452 likes</a></li>
+                             </ul>
+                         </div>
+                         <div class="float-right">
+                             <ul class="list-inline">
+                                 <li class="list-inline-item mr-2"><a href="">133 Comments</a></li>
+                                 <li class="list-inline-item"><a href="">46 Shares</a></li>
+                             </ul>
+                         </div><div class="clearfix"></div>
+                         <hr class="">
+                     </div>
+                     <div class="clearfix"></div> 
+                     <div class="mt-2  comment-likes2 social-list">
+                         <div class="float-left">
+                             <ul class="list-inline">
+                                 <li class="list-inline-item"><a href=""><i class="fa fa-heart-o" aria-hidden="true"></i> Like</a></li>
+                                 <li class="list-inline-item ml-2"><a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> Comments</a></li>
+                             </ul>
+                         </div>
+                         <div class="float-right">
+                             <ul>
+                                 <li><a href=""><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+ 
+ 
+ 
+                 <div class="border border-light p-3 mb-3 bg-white2 rounded">
+                     <div class="media">
+                         <img class="mr-2 avatar-sm rounded-circle" src="../assets/images/profile1Img.png" alt="Generic placeholder image">
+                         <div class="media-body">
+                             <h5 class="m-0">Lorem Ipsum</h5>
+                             <p class="text-muted"><small>about 2 minuts ago</small></p>
+                         </div>
+                     </div>
+                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium unde omnis iste doloremque laudantium, totam rem aptteriam <a href="">see more</a></p>
+ 
+                     <img src="../assets/images/image2.png" alt="post-img" class="mb-2 img-fluid">
+ 
+                     <div class="comment-likes social-list">
+                         <div class="float-left">
+                             <ul>
+                                 <li><a href="#">1452 likes</a></li>
+                             </ul>
+                         </div>
+                         <div class="float-right">
+                             <ul class="list-inline">
+                                 <li class="list-inline-item mr-2"><a href="">133 Comments</a></li>
+                                 <li class="list-inline-item"><a href="">46 Shares</a></li>
+                             </ul>
+                         </div><div class="clearfix"></div>
+                         <hr class="">
+                     </div>
+                     <div class="clearfix"></div> 
+                     <div class="mt-2  comment-likes2 social-list">
+                         <div class="float-left">
+                             <ul class="list-inline">
+                                 <li class="list-inline-item"><a href=""><i class="fa fa-heart-o" aria-hidden="true"></i> Like</a></li>
+                                 <li class="list-inline-item ml-2"><a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> Comments</a></li>
+                             </ul>
+                         </div>
+                         <div class="float-right">
+                             <ul>
+                                 <li><a href=""><i class="fa fa-share" aria-hidden="true"></i> Share</a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 
+             </div>
+         </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+          <div class="advertisement rounded">
+            <h5 class=" m-0 border-bottom">Advertisement</h5>
+            <div class="add-list ">
+                <div class="add-box border-bottom mb-3">
+                    <img src="../assets/images/adv1.png" alt="" class="img-fluid rounded">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                </div>
+                <div class="add-box border-bottom mb-3">
+                    <img src="../assets/images/adv2.png" alt="" class="img-fluid rounded">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                </div>
+                <div class="add-box">
+                    <img src="../assets/images/adv1.png" alt="" class="img-fluid rounded">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                </div>
+            </div>
+        </div>
+         </div>
+       </div>
+     </div>
+  </div>  
+ </body>
+ </html>
+
+ 
